@@ -1,0 +1,83 @@
+form{
+    border: 1px solid rgb(76, 0, 255);
+    margin-bottom: 20px;
+}
+
+form .form-head{
+    background-color: rgb(39, 8, 243);
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+
+form .form-body{
+    padding: 0px 20px;
+}
+
+#line2{
+    margin-top: 10px;
+}
+
+form .form-body label{
+    font-size: 20px;
+    color: blue;
+}
+
+form .form-body input{
+    float: right;
+    border: white;
+    border-bottom: 2px solid rgb(11, 11, 252);
+    outline: none;
+    width: 70%;
+}
+
+form .form-body select{
+    float: right;
+    border: white;
+    border-bottom: 2px solid rgb(14, 14, 238);
+    width: 70%;
+    outline: none;
+}
+
+form .form-foot{
+    border-top: 2px solid rgb(55, 0, 255);
+    padding: 10px;
+}
+
+form .form-foot .btns button{
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+form .form-foot .btns .btn-clear{
+    float: left;
+    background-color: rgb(112, 16, 238);
+
+}
+
+form .form-foot .btns .btn-save{
+    margin-left: 20px;
+    background-color: rgb(112, 14, 240);
+}
+
+form .form-foot .btns .btn-back{
+    margin-left: 20px;
+    background-color: rgb(86, 27, 250);
+    float: center;
+}
+
+form .form-foot .btns .btn-clear:hover{
+    background-color: rgb(16, 8, 49);
+}
+
+form .form-foot .btns .btn-save:hover{
+    background-color: rgb(8, 9, 56);
+}
+
+form .form-foot .btns .btn-back:hover{
+    background-color: rgb(7, 8, 39);
+}

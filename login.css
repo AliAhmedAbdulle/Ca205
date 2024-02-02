@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.loginform form {
+  border: none;
+  
+}
+
+.loginform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9),
+    -2px -2px 30px rgba(58, 23, 21, 0.5);
+}
+
+.loginform h1 {
+  border-bottom: 2px solid blue;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.loginform form .txt {
+  margin-bottom: 20px;
+  border-bottom: 1px solid blue;
+}
+
+.loginform form input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.loginform form p {
+  position: absolute;
+  color: red;
+}
+
+.loginform form .btn-login {
+  font-size: 20px;
+  background-color: rgb(74, 14, 240);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  float: right;
+  width: 100%;
+  margin-top: 20PX;
+}
+
+.loginform form .btn-login:hover {
+  background-color: white;
+  color: rgb(24, 238, 52);
+  border: 5px solid blue;
+  text-align: center;
+}

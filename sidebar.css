@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background: rgb(10, 4, 61);
+    color: white;
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+}
+
+.top-section{
+    border-bottom: 2px solid white;
+    padding: 15px 20px;
+}
+
+.top-section .logo{
+    font-size: 30px;
+    text-align: center;
+}
+
+.bars{
+    font-size: 30px;
+}
+
+
+.link{
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    padding: 10px 15px;
+    gap: 20px;
+    text-decoration: none;
+}
+
+
+
+.icons{
+    font-size: 30px;
+}
+.linktext{
+    font-size: 30px;
+}
+
+.link:hover{
+    background: rgb(28, 55, 194);
+    color: aqua;
+    transition: all 0.7s;
+}
+
+.btn-logout{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    display: inline-flex;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.btn-logout:hover{
+    background: rgb(28, 55, 194);
+    width: 100%;
+    height: 70px;
+}
+
+.btn-logout p{
+    margin-left: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-logout p .logoutlink{
+    color: rgb(95, 18, 184);
+    text-decoration: none;
+}
